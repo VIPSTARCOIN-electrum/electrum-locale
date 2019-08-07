@@ -1331,8 +1331,9 @@ msgid "Do you wish to continue?"
 msgstr "続けますか？"
 
 #: electrum/gui/qt/main_window.py:487
+#: electrum/gui/qt/main_window.py:548
 msgid "Don't show this again."
-msgstr ""
+msgstr "もう一度表示しない。"
 
 #: electrum/gui/qt/installwizard.py:46
 msgid "Due to a bug, old versions of Electrum will NOT be creating the same wallet as newer versions or other software."
@@ -5536,3 +5537,236 @@ msgstr ""
 msgid "{} words"
 msgstr ""
 
+#: electrum/coinchooser.py
+msgid "Sender address has no UTXO, you must to send 0.2 VIPS or more to Sender address."
+msgstr "送信者アドレスにUTXOが存在しません、送信者アドレスに0.2VIPS以上送金してやり直してください。"
+
+#: electrum/gui/qt/main_window.py:196
+msgid "Tokens"
+msgstr "トークン"
+
+#: electrum/gui/qt/main_window.py:211
+msgid "Smart &Contract"
+msgstr "スマートコントラクト"
+
+#: electrum/gui/qt/main_window.py:500
+msgid "And you can't spend tokens."
+msgstr "更に、トークンを使用することも出来ません。"
+
+#: electrum/gui/qt/main_window.py:545
+msgid "You are using Trezor or SegWit Address."
+msgstr "現在TrezorかSegWitアドレスを使用しています。"
+
+#: electrum/gui/qt/main_window.py:546
+msgid "Smart contracts and tokens can not be used with Trezor and SegWit Address."
+msgstr "スマートコントラクトとトークンは使用できませんので機能が制限されています。"
+
+#: electrum/gui/qt/main_window.py:664
+msgid "&Token"
+msgstr "トークン"
+
+#: electrum/gui/qt/main_window.py:665
+#: electrum/gui/qt/token_dialog.py:86
+msgid "Add Token"
+msgstr "トークンを追加"
+
+#: electrum/gui/qt/main_window.py:667
+msgid "&Smart Contract"
+msgstr "スマートコントラクト"
+
+#: electrum/gui/qt/main_window.py:668
+#: electrum/gui/qt/smart_contract_list.py:48
+msgid "Add Contract"
+msgstr "コントラクトを追加"
+
+#: electrum/gui/qt/main_window.py:669
+#: electrum/gui/qt/smart_contract_list.py:49
+msgid "Create Contract"
+msgstr "コントラクトを作成"
+
+#: electrum/gui/qt/smart_contract_dialog.py:44
+#: electrum/gui/qt/smart_contract_dialog.py:345
+msgid "Contract Name:"
+msgstr "コントラクト名:"
+
+#: electrum/gui/qt/smart_contract_dialog.py:52
+#: electrum/gui/qt/smart_contract_dialog.py:357
+msgid "Interface(ABI):"
+msgstr "インターフェイス(ABI):"
+
+#: electrum/gui/qt/smart_contract_dialog.py:80
+#: electrum/gui/qt/smart_contract_dialog.py:467
+msgid "invalid interface"
+msgstr "不正なインターフェイスです"
+
+#: electrum/gui/qt/smart_contract_dialog.py:80
+msgid "invalid contract address"
+msgstr "不正なコントラクトアドレスです"
+
+#: electrum/gui/qt/smart_contract_dialog.py:90
+msgid "name to long"
+msgstr "名前が長すぎます"
+
+#: electrum/gui/qt/smart_contract_dialog.py:95
+msgid "empty name not allowed"
+msgstr "名前が入力されていません"
+
+#: electrum/gui/qt/smart_contract_dialog.py:136
+msgid "Function:"
+msgstr "ファンクション:"
+
+#: electrum/gui/qt/smart_contract_dialog.py:157
+msgid "Parameters:"
+msgstr "パラメータ:"
+
+#: electrum/gui/qt/smart_contract_dialog.py:162
+#: electrum/gui/qt/token_dialog.py:218
+msgid "Optional:"
+msgstr "オプション:"
+
+#: electrum/gui/qt/smart_contract_dialog.py:170
+#: electrum/gui/qt/smart_contract_dialog.py:372
+#: electrum/gui/qt/token_dialog.py:224
+msgid "gas limit: "
+msgstr "ガスリミット: "
+
+#: electrum/gui/qt/smart_contract_dialog.py:174
+#: electrum/gui/qt/smart_contract_dialog.py:377
+#: electrum/gui/qt/token_dialog.py:227
+msgid "gas price:"
+msgstr "ガス価格:"
+
+#: electrum/gui/qt/smart_contract_dialog.py:178
+msgid "amount:"
+msgstr "金額:"
+
+#: electrum/gui/qt/smart_contract_dialog.py:193
+msgid "Sender:"
+msgstr "送信者:"
+
+#: electrum/gui/qt/smart_contract_dialog.py:202
+msgid "Call"
+msgstr "呼出"
+
+#: electrum/gui/qt/smart_contract_dialog.py:203
+msgid "Send to"
+msgstr "送信"
+
+#: electrum/gui/qt/smart_contract_dialog.py:310
+msgid "no sender selected"
+msgstr "送信者アドレスが選択されていません"
+
+#: electrum/gui/qt/smart_contract_dialog.py:350
+msgid "Bytecode:"
+msgstr "バイトコード:"
+
+#: electrum/gui/qt/smart_contract_dialog.py:365
+msgid "Constructor:"
+msgstr "コンストラクタ:"
+
+#: electrum/gui/qt/smart_contract_dialog.py:381
+msgid "sender:"
+msgstr "送信者:"
+
+#: electrum/gui/qt/smart_contract_dialog.py:398
+msgid "Create"
+msgstr "作成"
+
+#: electrum/gui/qt/smart_contract_dialog.py:457
+msgid "Please input bytecode"
+msgstr "バイトコードを入力してください"
+
+#: electrum/gui/qt/smart_contract_dialog.py:493
+msgid "Create Smart Contract"
+msgstr "スマートコントラスト作成"
+
+#: electrum/gui/qt/smart_contract_list.py:61
+msgid "Edit"
+msgstr "編集"
+
+#: electrum/gui/qt/smart_contract_list.py:62
+msgid "Function"
+msgstr "ファンクション"
+
+#: electrum/gui/qt/token_dialog.py:31
+msgid "Trezor does not support VRC20 Token for now"
+msgstr "現在TrezorはVIPSトークンをサポートしていません"
+
+#: electrum/gui/qt/token_dialog.py:39
+msgid "Only P2PKH address supports VRC20 Token"
+msgstr "VIPSトークンはP2PKHアドレス(Vアドレス)のみサポートされています"
+
+#: electrum/gui/qt/token_dialog.py:43
+#: electrum/gui/qt/token_dialog.py:122
+msgid "Contract Address:"
+msgstr "コントラクトアドレス:"
+
+#: electrum/gui/qt/token_dialog.py:48
+#: electrum/gui/qt/token_dialog.py:146
+#: electrum/gui/qt/token_dialog.py:199
+msgid "My Address:"
+msgstr "自身のアドレス:"
+
+#: electrum/gui/qt/token_dialog.py:128
+msgid "Token Name:"
+msgstr "トークン名:"
+
+#: electrum/gui/qt/token_dialog.py:134
+msgid "Token Symbol:"
+msgstr "トークンシンボル:"
+
+#: electrum/gui/qt/token_dialog.py:140
+msgid "Decimals:"
+msgstr "小数点以下の桁数:"
+
+#: electrum/gui/qt/token_dialog.py:177
+msgid "View Token"
+msgstr "トークン詳細"
+
+#: electrum/gui/qt/token_dialog.py:179
+#: electrum/gui/qt/token_dialog.py:301
+msgid "Empty data"
+msgstr "空のデータです"
+
+#: electrum/gui/qt/token_dialog.py:207
+msgid "Pay to:"
+msgstr "支払先:"
+
+#: electrum/gui/qt/token_dialog.py:213
+msgid "Amount:"
+msgstr "金額:"
+
+#: electrum/gui/qt/token_dialog.py:266
+msgid "token not enough"
+msgstr "トークンが不足しています"
+
+#: electrum/gui/qt/token_dialog.py:266
+#: electrum/gui/qt/token_dialog.py:300
+msgid "invalid address to send to"
+msgstr "不正な送信先アドレスです"
+
+#: electrum/gui/qt/token_list.py:54
+#: electrum/gui/qt/token_list.py:318
+msgid "Bind Address"
+msgstr "バインドアドレス"
+
+#: electrum/gui/qt/token_list.py:110
+msgid "View Info"
+msgstr "トークン情報"
+
+#: electrum/gui/qt/token_list.py:319
+msgid "Token"
+msgstr "トークン"
+
+#: electrum/gui/qt/transaction_dialog.py:426
+#: electrum/gui/qt/transaction_dialog.py:562
+msgid "Token Transaction"
+msgstr "トークン取引"
+
+#: electrum/gui/qt/transaction_dialog.py:553
+msgid "Amount received "
+msgstr "受領金額"
+
+#: electrum/gui/qt/transaction_dialog.py:555
+msgid "Amount sent "
+msgstr "送付金額"
