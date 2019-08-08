@@ -5584,6 +5584,18 @@ msgstr "コントラクトを追加"
 msgid "Create Contract"
 msgstr "コントラクトを作成"
 
+#: electrum/gui/qt/main_window.py:3605
+msgid "Remove {} from your list of tokens?"
+msgstr "{} をトークンリストから削除してもよろしいですか?"
+
+#: electrum/gui/qt/main_window.py:3666
+msgid "Gas fee"
+msgstr "ガス"
+
+#: electrum/gui/qt/main_window.py:3707
+msgid "Remove {} from your list of smart contracts?"
+msgstr "{} をスマートコントラクトリストから削除してもよろしいですか?"
+
 #: electrum/gui/qt/smart_contract_dialog.py:44
 #: electrum/gui/qt/smart_contract_dialog.py:345
 msgid "Contract Name:"
@@ -5627,8 +5639,8 @@ msgstr "オプション:"
 #: electrum/gui/qt/smart_contract_dialog.py:170
 #: electrum/gui/qt/smart_contract_dialog.py:372
 #: electrum/gui/qt/token_dialog.py:224
-msgid "gas limit: "
-msgstr "ガスリミット: "
+msgid "gas limit:"
+msgstr "ガスリミット:"
 
 #: electrum/gui/qt/smart_contract_dialog.py:174
 #: electrum/gui/qt/smart_contract_dialog.py:377
