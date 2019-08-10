@@ -5586,7 +5586,7 @@ msgstr "コントラクトを作成"
 
 #: electrum/gui/qt/main_window.py:3605
 msgid "Remove {} from your list of tokens?"
-msgstr "{} をトークンリストから削除してもよろしいですか?"
+msgstr "トークンリストから {} を削除しますか？"
 
 #: electrum/gui/qt/main_window.py:3666
 msgid "Gas fee"
@@ -5594,7 +5594,7 @@ msgstr "ガス"
 
 #: electrum/gui/qt/main_window.py:3707
 msgid "Remove {} from your list of smart contracts?"
-msgstr "{} をスマートコントラクトリストから削除してもよろしいですか?"
+msgstr "スマートコントラクトリストから {} を削除しますか？"
 
 #: electrum/gui/qt/smart_contract_dialog.py:44
 #: electrum/gui/qt/smart_contract_dialog.py:345
@@ -5752,7 +5752,10 @@ msgstr "金額:"
 msgid "token not enough"
 msgstr "トークンが不足しています"
 
-#: electrum/gui/qt/token_dialog.py:266
+#: electrum/gui/qt/token_dialog.py:269
+msgid "You can not send to bind address!"
+msgstr "バインドアドレスには送信できません！"
+
 #: electrum/gui/qt/token_dialog.py:300
 msgid "invalid address to send to"
 msgstr "不正な送信先アドレスです"
