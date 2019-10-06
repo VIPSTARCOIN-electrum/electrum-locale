@@ -5765,6 +5765,11 @@ msgstr "不正な送信先アドレスです"
 msgid "Bind Address"
 msgstr "バインドアドレス"
 
+#: electrum/gui/qt/token_list.py:57
+#: electrum/gui/qt/token_list.py:333
+msgid "Symbol"
+msgstr "シンボル(単位)"
+
 #: electrum/gui/qt/token_list.py:110
 msgid "View Info"
 msgstr "トークン情報"
