@@ -593,7 +593,7 @@ msgstr "手数料を増額する"
 
 #: electrum/gui/kivy/uix/dialogs/tx_dialog.py:173
 msgid "Bump fee"
-msgstr ""
+msgstr "手数料上乗せ"
 
 #: electrum/gui/qt/util.py:403
 msgid "CSV"
@@ -731,7 +731,7 @@ msgstr ""
 
 #: electrum/gui/kivy/uix/dialogs/installwizard.py:1048
 msgid "Choose PIN code"
-msgstr ""
+msgstr "PINコードを入力して下さい"
 
 #: electrum/base_wizard.py:600
 msgid "Choose Seed type"
@@ -755,7 +755,7 @@ msgstr "コイン (UTXO) の選択方法を選んで下さい。以下のもの�
 
 #: electrum/gui/kivy/uix/ui_screens/server.kv:43
 msgid "Choose from peers"
-msgstr ""
+msgstr "サーバーリストから選択"
 
 #: electrum/plugins/digitalbitbox/digitalbitbox.py:253
 msgid "Choose how to initialize your Digital Bitbox:"
@@ -814,7 +814,7 @@ msgstr "ここをクリックしてこのメッセージを隠します。"
 
 #: electrum/gui/kivy/uix/screens.py:238
 msgid "Clipboard is empty"
-msgstr ""
+msgstr "クリップボードは空です"
 
 #: electrum/gui/qt/util.py:166 electrum/gui/qt/transaction_dialog.py:137
 #: electrum/gui/qt/qrcodewidget.py:127 electrum/gui/qt/update_checker.py:62
@@ -977,7 +977,7 @@ msgstr ""
 
 #: electrum/gui/kivy/uix/ui_screens/status.kv:36
 msgid "Confirmed"
-msgstr ""
+msgstr "承認済み"
 
 #: electrum/plugins/ledger/ledger.py:465 electrum/plugins/ledger/ledger.py:489
 msgid "Confirmed. Signing Transaction..."
@@ -989,7 +989,7 @@ msgstr "接続ノード"
 
 #: electrum/gui/kivy/uix/ui_screens/network.kv:55
 msgid "Connected nodes are on the same chain"
-msgstr ""
+msgstr "接続されたノードはすべて同一チェーン上にあります"
 
 #: electrum/gui/qt/network_dialog.py:378
 #, python-brace-format
@@ -1002,7 +1002,7 @@ msgstr "接続中..."
 
 #: electrum/gui/kivy/uix/ui_screens/network.kv:16
 msgid "Connections with Electrum servers"
-msgstr ""
+msgstr "Electrumサーバーの接続数"
 
 #: electrum/network.py:189 electrum/network.py:197 electrum/network.py:205
 msgid "Consider trying to connect to a different server, or updating Electrum."
@@ -1027,7 +1027,7 @@ msgstr "コピーして閉じる"
 
 #: electrum/gui/kivy/uix/ui_screens/send.kv:36
 msgid "Copy and paste the recipient address using the Paste button, or use the camera to scan a QR code."
-msgstr ""
+msgstr "受信者のアドレスはコピーして貼り付けボタンを押すか、カメラを使用してQRコードをスキャンすることで入力できます。"
 
 #: electrum/gui/qt/util.py:658
 msgid "Copy to clipboard"
@@ -1186,7 +1186,7 @@ msgstr "請求を削除しますか?"
 
 #: electrum/gui/kivy/uix/dialogs/requests.py:146
 msgid "Delete request"
-msgstr ""
+msgstr "請求を削除しますか?"
 
 #: electrum/gui/qt/main_window.py:2266
 msgid "Delete wallet file?"
@@ -1312,7 +1312,7 @@ msgstr "次の古いファイルを削除しますか？"
 
 #: electrum/gui/kivy/main_window.py:589
 msgid "Do you want to launch the wizard again?"
-msgstr ""
+msgstr "ウィザードを再起動しますか？"
 
 #: electrum/plugins/cosigner_pool/qt.py:218
 msgid "Do you want to open it now?"
@@ -1391,7 +1391,7 @@ msgstr "Electrum設定"
 
 #: electrum/gui/kivy/uix/ui_screens/server.kv:9
 msgid "Electrum requests your transaction history from a single server. The returned history is checked against blockchain headers sent by other nodes, using Simple Payment Verification (SPV)."
-msgstr ""
+msgstr "Electrumは、単一のサーバーから取引履歴を取得します。履歴は、他のノードから受信したブロックチェーンヘッダーを用いて、Simple Payment Verification(SPV)を使用してチェックされます。"
 
 #: electrum/gui/qt/network_dialog.py:314
 msgid "Electrum sends your wallet addresses to a single server, in order to receive your transaction history."
@@ -1520,7 +1520,7 @@ msgstr ""
 
 #: electrum/gui/kivy/main_window.py:561
 msgid "Enter PIN code"
-msgstr ""
+msgstr "PINコードを入力"
 
 #: electrum/plugins/ledger/auth2fa.py:112
 #: electrum/plugins/ledger/auth2fa.py:145
@@ -1542,7 +1542,7 @@ msgstr "シードを入力"
 
 #: electrum/gui/kivy/uix/screens.py:134
 msgid "Enter Transaction Label"
-msgstr ""
+msgstr "トランザクションラベルを入力"
 
 #: electrum/gui/qt/main_window.py:512
 msgid "Enter a filename for the copy of your wallet"
@@ -1659,23 +1659,23 @@ msgstr ""
 
 #: electrum/gui/kivy/main_window.py:1119
 msgid "Enter your PIN code in order to decrypt your private key"
-msgstr ""
+msgstr "秘密鍵を復号化するためにPINコードを入力して下さい"
 
 #: electrum/gui/kivy/main_window.py:1069
 msgid "Enter your PIN code in order to decrypt your seed"
-msgstr "あなたのシードを複合するためのPINコードを入力"
+msgstr "あなたのシードを復号するためにPINコードを入力して下さい"
 
 #: electrum/gui/kivy/uix/dialogs/tx_dialog.py:233
 msgid "Enter your PIN code in order to sign this transaction"
-msgstr ""
+msgstr "トランザクションに署名するためにPINコードを入力して下さい"
 
 #: electrum/gui/kivy/main_window.py:1050
 msgid "Enter your PIN code to confirm deletion of {}"
-msgstr ""
+msgstr "{]を削除するにはPINコードを入力して下さい"
 
 #: electrum/gui/kivy/uix/screens.py:310
 msgid "Enter your PIN code to proceed"
-msgstr ""
+msgstr "PINコードを入力して続行します"
 
 #: electrum/gui/kivy/main_window.py:1096
 msgid "Enter your current PIN:"
@@ -1689,7 +1689,7 @@ msgstr ""
 
 #: electrum/gui/kivy/uix/dialogs/installwizard.py:656
 msgid "Enter your email address:"
-msgstr ""
+msgstr "Eメールアドレスを入力して下さい"
 
 #: electrum/gui/qt/installwizard.py:221
 msgid "Enter your password or choose another file."
@@ -1720,12 +1720,12 @@ msgstr "支払請求の追加に失敗"
 
 #: electrum/plugins/trustedcoin/kivy.py:82
 msgid "Error connecting to server"
-msgstr ""
+msgstr "サーバに接続する際にエラーが発生しました"
 
 #: electrum/plugins/labels/labels.py:22
 #: electrum/plugins/trustedcoin/trustedcoin.py:115
 msgid "Error connecting to {} server"
-msgstr ""
+msgstr "{}サーバーに接続する際にエラーが発生しました"
 
 #: electrum/plugins/cosigner_pool/qt.py:229
 msgid "Error decrypting message"
@@ -1745,7 +1745,7 @@ msgstr "ファイルを開けません"
 
 #: electrum/gui/qt/main_window.py:1866 electrum/gui/kivy/uix/screens.py:180
 msgid "Error parsing URI"
-msgstr ""
+msgstr "URIをパースする際にエラーが発生しました"
 
 #: electrum/base_wizard.py:269
 msgid "Error scanning devices"
@@ -1783,7 +1783,7 @@ msgstr "支出"
 
 #: electrum/gui/kivy/uix/ui_screens/invoice.kv:46
 msgid "Expiration"
-msgstr ""
+msgstr "有効期限"
 
 #: electrum/gui/qt/main_window.py:935
 msgid "Expiration date of your request."
@@ -1818,7 +1818,7 @@ msgstr "ファイルを出力"
 
 #: electrum/gui/kivy/uix/ui_screens/invoice.kv:87
 msgid "Export private key"
-msgstr ""
+msgstr "秘密鍵をエクスポート"
 
 #: electrum/gui/qt/main_window.py:2587
 msgid "Exposing a single private key can compromise your entire wallet!"
@@ -1844,7 +1844,7 @@ msgstr "ハードウエアデバイスによる復号化が出来ませんでし
 #: electrum/gui/qt/transaction_dialog.py:194
 #: electrum/gui/kivy/main_window.py:433
 msgid "Failed to display QR code."
-msgstr ""
+msgstr "QRコードの表示に失敗しました"
 
 #: electrum/util.py:122
 msgid "Failed to export to file."
@@ -1953,7 +1953,7 @@ msgstr "セキュリティ上の理由の為に、あなたが今使っている
 
 #: electrum/gui/kivy/uix/ui_screens/network.kv:53
 msgid "Fork detected at block {}"
-msgstr ""
+msgstr "{]ブロックでのフォークを検出しました"
 
 #: electrum/gui/qt/util.py:400
 msgid "Format"
@@ -2003,7 +2003,7 @@ msgstr ""
 #: electrum/gui/qt/address_list.py:66
 #: electrum/gui/kivy/uix/dialogs/addresses.py:120
 msgid "Funded"
-msgstr ""
+msgstr "資金あり"
 
 #: electrum/gui/qt/main_window.py:3217
 msgid "General"
@@ -2079,7 +2079,7 @@ msgstr "履歴"
 
 #: electrum/gui/kivy/uix/ui_screens/about.kv:25
 msgid "Homepage"
-msgstr ""
+msgstr "ホームページ"
 
 #: electrum/plugins/trezor/qt.py:525 electrum/plugins/safe_t/qt.py:398
 msgid "Homescreen"
@@ -2171,7 +2171,7 @@ msgstr ""
 
 #: electrum/gui/kivy/uix/dialogs/installwizard.py:620
 msgid "If you have lost your Google Authenticator account, you can request a new secret. You will need to retype your seed."
-msgstr ""
+msgstr "Google Authenticatorアカウントを紛失した場合、新しいシークレットをリクエストできます。シードを再入力する必要があります。"
 
 #: electrum/plugins/trustedcoin/qt.py:116
 msgid "If you have lost your second factor, you need to restore your wallet from seed in order to request a new code."
@@ -2386,7 +2386,7 @@ msgstr "無効な秘密鍵です"
 
 #: electrum/gui/kivy/uix/screens.py:270
 msgid "Invalid amount"
-msgstr ""
+msgstr "金額が不正です"
 
 #: electrum/plugins/trustedcoin/kivy.py:67
 #: electrum/plugins/trustedcoin/trustedcoin.py:349
@@ -2405,7 +2405,7 @@ msgstr "請求"
 
 #: electrum/gui/kivy/uix/screens.py:227
 msgid "Invoice saved"
-msgstr ""
+msgstr "請求を保存しました"
 
 #: electrum/gui/qt/main_window.py:2044
 msgid "Invoice saved as "
@@ -2627,7 +2627,7 @@ msgstr "Mempoolベース：手数料はメモリープールの深さを目安�
 
 #: electrum/gui/kivy/uix/dialogs/tx_dialog.py:142
 msgid "Mempool depth"
-msgstr ""
+msgstr "Mempool深度"
 
 #: electrum/gui/qt/main_window.py:2393 electrum/gui/qt/main_window.py:2461
 msgid "Message"
@@ -2748,7 +2748,7 @@ msgstr ""
 
 #: electrum/gui/kivy/uix/dialogs/invoices.py:125
 msgid "No Amount"
-msgstr ""
+msgstr "金額無し"
 
 #: electrum/util.py:181 electrum/util.py:187
 msgid "No Data"
@@ -2756,7 +2756,7 @@ msgstr "データ無し"
 
 #: electrum/gui/kivy/uix/ui_screens/send.kv:72
 msgid "No Description"
-msgstr ""
+msgstr "説明なし"
 
 #: electrum/gui/kivy/main_window.py:205
 msgid "No Wallet"
@@ -2776,7 +2776,7 @@ msgstr "例外は発生しませんでした。"
 
 #: electrum/gui/kivy/uix/ui_screens/network.kv:53
 msgid "No fork detected"
-msgstr ""
+msgstr "フォークは検出されませんでした"
 
 #: electrum/base_wizard.py:301
 msgid "No hardware device detected."
@@ -2804,15 +2804,15 @@ msgstr "出力がありません(残高不足)"
 
 #: electrum/gui/kivy/main_window.py:1000
 msgid "No saved invoices."
-msgstr ""
+msgstr "請求が保存されていません。"
 
 #: electrum/gui/kivy/main_window.py:1012
 msgid "No saved requests."
-msgstr ""
+msgstr "リクエストが保存されていません。"
 
 #: electrum/gui/kivy/main_window.py:327
 msgid "No wallet loaded."
-msgstr ""
+msgstr "ウォレットが読み込まれていません。"
 
 #: electrum/gui/qt/network_dialog.py:367 electrum/gui/qt/history_list.py:402
 #: electrum/gui/qt/main_window.py:3126
@@ -2927,7 +2927,7 @@ msgstr "1行につき1つ送金先を入力して下さい。"
 
 #: electrum/gui/kivy/uix/ui_screens/network.kv:39
 msgid "One-server mode"
-msgstr ""
+msgstr "ワンサーバーモード"
 
 #: electrum/gui/qt/main_window.py:2990
 msgid "Online Block Explorer"
@@ -2939,7 +2939,7 @@ msgstr ""
 
 #: electrum/gui/kivy/uix/ui_screens/network.kv:40
 msgid "Only connect to a single server"
-msgstr ""
+msgstr "一つのサーバーにのみ接続します"
 
 #: electrum/plugins/trezor/qt.py:607 electrum/plugins/keepkey/qt.py:550
 #: electrum/plugins/safe_t/qt.py:480
@@ -3005,7 +3005,7 @@ msgstr "PINコードによる保護"
 
 #: electrum/gui/kivy/main_window.py:1100
 msgid "PIN codes do not match"
-msgstr ""
+msgstr "PINコードが一致しません"
 
 #: electrum/gui/kivy/uix/dialogs/installwizard.py:1044
 msgid "PIN mismatch"
@@ -3085,11 +3085,11 @@ msgstr "パスワード:"
 
 #: electrum/gui/kivy/uix/ui_screens/send.kv:105
 msgid "Paste"
-msgstr ""
+msgstr "貼り付け"
 
 #: electrum/gui/kivy/uix/ui_screens/send.kv:121
 msgid "Pay"
-msgstr ""
+msgstr "送金"
 
 #: electrum/gui/qt/invoice_list.py:118
 msgid "Pay Now"
@@ -3110,7 +3110,7 @@ msgstr "支払い請求"
 
 #: electrum/gui/kivy/uix/screens.py:340 electrum/gui/kivy/uix/screens.py:374
 msgid "Payment received"
-msgstr ""
+msgstr "受け取り済みの支払い"
 
 #: electrum/gui/qt/main_window.py:1607 electrum/gui/qt/main_window.py:1753
 #: electrum/gui/kivy/uix/screens.py:256 electrum/gui/kivy/main_window.py:339
@@ -3145,7 +3145,7 @@ msgstr "接続と権限をチェックして下さい。"
 
 #: electrum/gui/kivy/uix/dialogs/crash_reporter.py:127
 msgid "Please check your network connection."
-msgstr ""
+msgstr "ネットワークへの接続を確認してください。"
 
 #: electrum/plugins/hw_wallet/qt.py:163
 msgid "Please check your {} device"
@@ -3162,7 +3162,7 @@ msgstr "共同署名者のマスター公開鍵(xpub) を入力して下さい�
 #: electrum/plugins/trustedcoin/kivy.py:58
 #: electrum/plugins/trustedcoin/qt.py:109
 msgid "Please enter your Google Authenticator code"
-msgstr ""
+msgstr "Google Authenticatorコードを入力してください"
 
 #: electrum/plugins/trustedcoin/cmdline.py:40
 msgid "Please enter your Google Authenticator code:"
@@ -3223,7 +3223,7 @@ msgstr "この{0}個の単語を順番通りに紙に記録して下さい。"
 
 #: electrum/gui/kivy/uix/screens.py:262
 msgid "Please scan a Bitcoin address or a payment request"
-msgstr ""
+msgstr "ビットコインアドレスか、支払い請求をスキャンして下さい"
 
 #: electrum/plugin.py:557
 msgid "Please select which {} device to use:"
@@ -3251,7 +3251,7 @@ msgstr "シードをバーチャルキーボードで入力してください"
 
 #: electrum/gui/kivy/uix/screens.py:425
 msgid "Please use the existing requests first."
-msgstr ""
+msgstr "最初に既存のリクエストを使用してください。"
 
 #: electrum/gui/qt/util.py:292
 msgid "Please wait"
@@ -3324,7 +3324,7 @@ msgstr ""
 
 #: electrum/gui/kivy/uix/ui_screens/invoice.kv:55
 msgid "Private Key"
-msgstr ""
+msgstr "秘密鍵"
 
 #: electrum/gui/qt/address_list.py:212 electrum/gui/qt/main_window.py:2315
 #: electrum/gui/qt/main_window.py:2320
@@ -3375,11 +3375,11 @@ msgstr "プロキシ"
 
 #: electrum/gui/kivy/uix/ui_screens/network.kv:28
 msgid "Proxy configuration"
-msgstr ""
+msgstr "プロキシ設定"
 
 #: electrum/gui/kivy/uix/ui_screens/proxy.kv:11
 msgid "Proxy mode"
-msgstr ""
+msgstr "プロキシモード"
 
 #: electrum/gui/qt/network_dialog.py:294
 msgid "Proxy settings apply to all connections: with Electrum servers, but also with third-party services."
@@ -3391,7 +3391,7 @@ msgstr "プロキシ ユーザー名"
 
 #: electrum/gui/kivy/uix/screens.py:140
 msgid "Pruned transaction outputs"
-msgstr ""
+msgstr "整形済みトランザクションを出力"
 
 #: electrum/gui/qt/main_window.py:2469
 msgid "Public key"
@@ -3415,7 +3415,7 @@ msgstr "QRコードをファイルに保存しました"
 
 #: electrum/gui/kivy/uix/dialogs/question.py:51
 msgid "Question"
-msgstr ""
+msgstr "質問"
 
 #: electrum/gui/text.py:157
 msgid "Quit"
@@ -3427,7 +3427,7 @@ msgstr ""
 
 #: electrum/gui/kivy/uix/dialogs/tx_dialog.py:254
 msgid "Raw Transaction"
-msgstr ""
+msgstr "生トランザクション"
 
 #: electrum/plugins/ledger/auth2fa.py:189
 msgid "Re-Pair"
@@ -3464,7 +3464,7 @@ msgstr "請求"
 #: electrum/gui/kivy/uix/dialogs/requests.py:91
 #: electrum/gui/kivy/uix/ui_screens/history.kv:24
 msgid "Received"
-msgstr ""
+msgstr "受け取り済み"
 
 #: electrum/gui/qt/address_list.py:62
 msgid "Receiving"
@@ -3476,15 +3476,15 @@ msgstr "入金アドレス"
 
 #: electrum/gui/kivy/uix/ui_screens/send.kv:34
 msgid "Recipient"
-msgstr ""
+msgstr "受取人"
 
 #: electrum/gui/kivy/uix/screens.py:262
 msgid "Recipient not specified."
-msgstr ""
+msgstr "受取人が指定されていません"
 
 #: electrum/gui/qt/main_window.py:1179
 msgid "Recipient of the funds."
-msgstr "富士コインの送信先アドレスです。"
+msgstr "ビットコインの送信先アドレスです。"
 
 #: electrum/plugins/trezor/trezor.py:201
 #: electrum/plugins/keepkey/keepkey.py:193
@@ -3515,7 +3515,7 @@ msgstr "報告"
 
 #: electrum/gui/kivy/uix/dialogs/crash_reporter.py:129
 msgid "Report sent"
-msgstr ""
+msgstr "報告を送信"
 
 #: electrum/gui/qt/main_window.py:673
 msgid "Reporting Bugs"
@@ -3523,15 +3523,15 @@ msgstr "バグ報告"
 
 #: electrum/gui/kivy/uix/ui_screens/invoice.kv:17
 msgid "Request"
-msgstr ""
+msgstr "請求"
 
 #: electrum/gui/kivy/uix/ui_screens/invoice.kv:37
 msgid "Request amount"
-msgstr ""
+msgstr "請求金額"
 
 #: electrum/gui/kivy/uix/screens.py:399
 msgid "Request copied to clipboard"
-msgstr ""
+msgstr "請求がクリップボードにコピーされました"
 
 #: electrum/gui/qt/main_window.py:940
 msgid "Request expires"
@@ -3555,7 +3555,7 @@ msgstr "リクエストは送信されました。"
 
 #: electrum/gui/kivy/uix/screens.py:429
 msgid "Request was saved."
-msgstr ""
+msgstr "請求を保存しました。"
 
 #: electrum/gui/qt/main_window.py:920
 msgid "Requested amount"
@@ -3779,7 +3779,7 @@ msgstr ""
 
 #: electrum/gui/kivy/uix/ui_screens/network.kv:34
 msgid "Select your server automatically"
-msgstr ""
+msgstr "サーバーを自動的に選択"
 
 #: electrum/gui/qt/main_window.py:2534
 msgid "Select your transaction file"
@@ -3828,7 +3828,7 @@ msgstr ""
 
 #: electrum/gui/kivy/uix/ui_screens/history.kv:24
 msgid "Sent"
-msgstr ""
+msgstr "送金済"
 
 #: electrum/gui/qt/network_dialog.py:215 electrum/gui/qt/network_dialog.py:244
 #: electrum/gui/qt/network_dialog.py:315
@@ -3859,7 +3859,7 @@ msgstr "サーバーが予期せぬTxIDを返しました。"
 
 #: electrum/gui/kivy/uix/ui_screens/network.kv:22
 msgid "Server used to query your history."
-msgstr ""
+msgstr "履歴の問い合わせに使用されるサーバー。"
 
 #: electrum/plugins/trezor/qt.py:548 electrum/plugins/keepkey/qt.py:491
 #: electrum/plugins/safe_t/qt.py:421
@@ -3888,11 +3888,11 @@ msgstr "設定"
 
 #: electrum/gui/kivy/uix/screens.py:394
 msgid "Share Bitcoin Request"
-msgstr ""
+msgstr "ビットコインリクエストをシェア"
 
 #: electrum/gui/kivy/uix/screens.py:277
 msgid "Should this transaction be replaceable?"
-msgstr ""
+msgstr "手数料交換を有効にしますか？"
 
 #: electrum/gui/qt/main_window.py:603
 #: electrum/gui/kivy/uix/dialogs/requests.py:126
@@ -3948,7 +3948,7 @@ msgstr ""
 
 #: electrum/gui/kivy/uix/ui_screens/status.kv:74
 msgid "Show seed"
-msgstr ""
+msgstr "シードを表示"
 
 #: electrum/gui/qt/main_window.py:288
 msgid "Show {}"
@@ -3992,11 +3992,11 @@ msgstr "署名済"
 
 #: electrum/gui/kivy/main_window.py:1001
 msgid "Signed invoices are saved automatically when you scan them."
-msgstr ""
+msgstr "署名済みの請求書は、スキャンすると自動的に保存されます。"
 
 #: electrum/gui/kivy/uix/dialogs/tx_dialog.py:236
 msgid "Signing"
-msgstr ""
+msgstr "署名中"
 
 #: electrum/plugins/digitalbitbox/digitalbitbox.py:630
 msgid "Signing large transaction. Please be patient ..."
@@ -4165,7 +4165,7 @@ msgstr "クリップボードにコピーされました"
 #: electrum/gui/kivy/uix/dialogs/qr_dialog.py:63
 #: electrum/gui/kivy/main_window.py:435
 msgid "Text copied to clipboard."
-msgstr ""
+msgstr "テキストはクリップボードにコピーされました。"
 
 #: electrum/gui/kivy/main_window.py:859
 msgid "Text copied to clipboard.\n"
@@ -4283,7 +4283,7 @@ msgstr "ウォレット'{}'は複数のアカウントを持っています。�
 #: electrum/plugins/trustedcoin/qt.py:295
 #: electrum/gui/kivy/uix/dialogs/installwizard.py:643
 msgid "Then, enter your Google Authenticator code:"
-msgstr ""
+msgstr "次に、Google Authenticatorコードを入力してください:"
 
 #: electrum/gui/qt/update_checker.py:85
 msgid "There is a new update available"
@@ -4429,7 +4429,7 @@ msgstr "このウォレットにはシードがありません。"
 
 #: electrum/gui/kivy/uix/dialogs/installwizard.py:619
 msgid "This wallet is already registered with TrustedCoin. To finalize wallet creation, please enter your Google Authenticator Code."
-msgstr ""
+msgstr "このウォレットはすでにTrustedCoinに登録されています。 ウォレットの作成を完了するには、Google Authenticatorコードを入力してください。"
 
 #: electrum/plugins/trustedcoin/qt.py:172
 msgid "This wallet is protected by TrustedCoin's two-factor authentication."
@@ -4437,7 +4437,7 @@ msgstr ""
 
 #: electrum/gui/kivy/uix/ui_screens/status.kv:66
 msgid "This wallet is watching-only"
-msgstr ""
+msgstr "このウォレットは閲覧専用です"
 
 #: electrum/gui/qt/main_window.py:466
 msgid "This wallet is watching-only."
@@ -4698,7 +4698,7 @@ msgstr "ファイルを読み込めないか空でした"
 
 #: electrum/gui/kivy/uix/dialogs/crash_reporter.py:127
 msgid "Unable to send report"
-msgstr ""
+msgstr "レポートを送信できません"
 
 #: electrum/wallet.py:77 electrum/wallet.py:397
 #: electrum/gui/kivy/uix/ui_screens/status.kv:41
@@ -4753,7 +4753,7 @@ msgstr "取引のブロードキャストにて不明なエラーが起きまし
 
 #: electrum/gui/kivy/uix/ui_screens/status.kv:45
 msgid "Unmatured"
-msgstr ""
+msgstr "未熟"
 
 #: electrum/gui/qt/history_list.py:507
 msgid "Unrealized gains"
@@ -4770,7 +4770,7 @@ msgstr "サポートされないパスワードのハッシュバージョン"
 #: electrum/gui/qt/address_list.py:66
 #: electrum/gui/kivy/uix/dialogs/addresses.py:120
 msgid "Unused"
-msgstr ""
+msgstr "未使用"
 
 #: electrum/gui/qt/update_checker.py:32
 msgid "Update Check"
@@ -4800,7 +4800,7 @@ msgstr ""
 
 #: electrum/gui/kivy/uix/dialogs/addresses.py:124
 msgid "Use"
-msgstr ""
+msgstr "使用済"
 
 #: electrum/gui/qt/main_window.py:2889
 msgid "Use Replace-By-Fee"
@@ -4861,7 +4861,7 @@ msgstr "使用済"
 
 #: electrum/gui/kivy/uix/ui_screens/proxy.kv:38
 msgid "Username"
-msgstr ""
+msgstr "ユーザー名"
 
 #: electrum/gui/qt/main_window.py:661
 msgid "Uses icons from the Icons8 icon pack (icons8.com)."
@@ -4886,7 +4886,7 @@ msgstr ""
 
 #: electrum/gui/kivy/uix/ui_screens/network.kv:48
 msgid "Verified block headers"
-msgstr ""
+msgstr "検証済みブロックヘッダー"
 
 #: electrum/gui/qt/main_window.py:2414
 msgid "Verify"
@@ -4968,7 +4968,7 @@ msgstr "ウォレットの情報"
 
 #: electrum/gui/kivy/uix/ui_screens/status.kv:27
 msgid "Wallet Name"
-msgstr ""
+msgstr "ウォレット名"
 
 #: electrum/gui/qt/main_window.py:519
 msgid "Wallet backup created"
@@ -5004,7 +5004,7 @@ msgstr "ウォレットのタイプ"
 
 #: electrum/gui/kivy/uix/ui_screens/status.kv:30
 msgid "Wallet type:"
-msgstr ""
+msgstr "ウォレットタイプ:"
 
 #: electrum/base_wizard.py:132
 msgid "Wallet with two-factor authentication"
@@ -5012,7 +5012,7 @@ msgstr "2段階認証のウォレット"
 
 #: electrum/gui/kivy/main.kv:448
 msgid "Wallets"
-msgstr ""
+msgstr "ウォレット"
 
 #: electrum/plugins/revealer/qt.py:133 electrum/plugins/revealer/qt.py:186
 #: electrum/plugins/revealer/qt.py:219 electrum/gui/qt/util.py:222
@@ -5168,7 +5168,7 @@ msgstr "パスフレーズに連続したスペース文字または先頭や末
 
 #: electrum/gui/kivy/main_window.py:1002
 msgid "You may also save unsigned requests or contact addresses using the save button."
-msgstr ""
+msgstr "保存ボタンを使用して、未署名のリクエストまたは連絡先アドレスを保存することもできます。"
 
 #: electrum/gui/qt/main_window.py:1180
 msgid "You may enter a Bitcoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Bitcoin address)"
@@ -5511,7 +5511,7 @@ msgstr "{} 承認"
 
 #: electrum/gui/kivy/uix/ui_screens/network.kv:14
 msgid "{} connections."
-msgstr ""
+msgstr "{} 承認。"
 
 #: electrum/plugins/revealer/qt.py:179
 msgid "{} encrypted for Revealer {}_{} saved as PNG and PDF at: "
@@ -5519,7 +5519,7 @@ msgstr ""
 
 #: electrum/gui/kivy/uix/dialogs/tx_dialog.py:143
 msgid "{} from tip"
-msgstr ""
+msgstr "{}からのチップ"
 
 #: electrum/plugins/greenaddress_instant/qt.py:104
 msgid "{} is covered by GreenAddress instant confirmation"
@@ -5790,3 +5790,83 @@ msgstr "受領金額"
 #: electrum/gui/qt/transaction_dialog.py:555
 msgid "Amount sent "
 msgstr "送付金額"
+
+#: electrum/gui/kivy/uix/dialogs/add_token_dialog.py:26
+msgid "Contract Address"
+msgstr "コントラクトアドレス"
+
+#: electrum/gui/kivy/uix/dialogs/add_token_dialog.py:99
+msgid "Contract Address is empty"
+msgstr "コントラクトアドレスは空です"
+
+#: electrum/gui/kivy/uix/dialogs/add_token_dialog.py:107
+msgid "token info not valid: {0} {1} {2}"
+msgstr "トークン情報は無効です: {0} {1} {2}"
+
+#: electrum/gui/kivy/uix/dialogs/add_token_dialog.py:107
+msgid "QR data is bitcoin URI."
+msgstr "QRコードはビットコインURIです。"
+
+#: electrum/gui/kivy/uix/dialogs/add_token_dialog.py:149
+msgid "token not found"
+msgstr "トークンが見つかりません"
+
+#: electrum/gui/kivy/uix/dialogs/add_token_dialog.py:176
+msgid "Unable to decode QR data"
+msgstr "QRコードが解析出来ません"
+
+#: electrum/gui/kivy/uix/dialogs/view_token_dialog.py:14
+msgid "Token Info"
+msgstr "トークン情報"
+
+#: electrum/gui/kivy/uix/dialogs/view_token_dialog.py:47
+msgid "Decimals"
+msgstr "小数点"
+
+#: electrum/gui/kivy/uix/dialogs/view_token_dialog.py:76
+msgid "Delete Token"
+msgstr "トークンを削除"
+
+#: electrum/gui/kivy/uix/dialogs/view_token_dialog.py:117
+msgid "Delete {} token?"
+msgstr "{}トークンを削除しますか?"
+
+#: electrum/gui/kivy/uix/dialogs/receive_token_dialog.py:18
+msgid "Request Token"
+msgstr "トークン請求"
+
+#: electrum/gui/kivy/uix/dialogs/receive_token_dialog.py:148
+msgid "Share VIPS Token Request"
+msgstr "VIPSトークン請求をシェアする"
+
+#: electrum/gui/kivy/uix/dialogs/send_token_dialog.py:15
+msgid "Send Token"
+msgstr "トークンを送金"
+
+#: electrum/gui/kivy/uix/dialogs/send_token_dialog.py:198
+msgid "Token doesn't mutch"
+msgstr "コントラクトアドレスが間違っています"
+
+#: electrum/gui/kivy/uix/dialogs/send_token_dialog.py:202
+msgid "Recipient address is miss"
+msgstr "受取人アドレスが間違っています"
+
+#: electrum/gui/kivy/uix/dialogs/send_token_dialog.py:214
+msgid "QR data isn't p2pkh address."
+msgstr "QRコードはp2pkh(Vで始まる)アドレスではありません。"
+
+#: electrum/gui/kivy/uix/dialogs/send_token_dialog.py:217
+msgid "QR data is Contract Address."
+msgstr "QRコードはコントラクトアドレスです。"
+
+#: electrum/gui/kivy/uix/dialogs/send_token_dialog.py:235
+msgid "QR data is transaction."
+msgstr "QRコードはトランザクションデータです。"
+
+#: electrum/gui/kivy/uix/screens.py:452
+msgid "Receive Token"
+msgstr "トークン受取"
+
+#: electrum/gui/kivy/main.kv:441
+msgid "Token History"
+msgstr "トークン履歴"
