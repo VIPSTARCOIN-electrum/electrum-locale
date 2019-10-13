@@ -3110,7 +3110,7 @@ msgstr "支払い請求"
 
 #: electrum/gui/kivy/uix/screens.py:340 electrum/gui/kivy/uix/screens.py:374
 msgid "Payment received"
-msgstr "受け取り済みの支払い"
+msgstr "受取済の支払い"
 
 #: electrum/gui/qt/main_window.py:1607 electrum/gui/qt/main_window.py:1753
 #: electrum/gui/kivy/uix/screens.py:256 electrum/gui/kivy/main_window.py:339
@@ -3464,7 +3464,7 @@ msgstr "請求"
 #: electrum/gui/kivy/uix/dialogs/requests.py:91
 #: electrum/gui/kivy/uix/ui_screens/history.kv:24
 msgid "Received"
-msgstr "受け取り済み"
+msgstr "受取済"
 
 #: electrum/gui/qt/address_list.py:62
 msgid "Receiving"
@@ -4800,11 +4800,11 @@ msgstr ""
 
 #: electrum/gui/kivy/uix/dialogs/addresses.py:124
 msgid "Use"
-msgstr "使用済"
+msgstr "使用する"
 
 #: electrum/gui/qt/main_window.py:2889
 msgid "Use Replace-By-Fee"
-msgstr "Replace-By-Feeを使用"
+msgstr "Replace-By-Fee(手数料上乗せ)を使用"
 
 #: electrum/gui/qt/network_dialog.py:287
 msgid "Use Tor Proxy"
@@ -5511,7 +5511,7 @@ msgstr "{} 承認"
 
 #: electrum/gui/kivy/uix/ui_screens/network.kv:14
 msgid "{} connections."
-msgstr "{} 承認。"
+msgstr "{} つの接続。"
 
 #: electrum/plugins/revealer/qt.py:179
 msgid "{} encrypted for Revealer {}_{} saved as PNG and PDF at: "
@@ -5554,11 +5554,11 @@ msgid "And you can't spend tokens."
 msgstr "更に、トークンを使用することも出来ません。"
 
 #: electrum/gui/qt/main_window.py:545
-msgid "You are using Trezor or SegWit Address."
+msgid "You are using Trezor or Multisig Address or SegWit Address."
 msgstr "現在TrezorかSegWitアドレスを使用しています。"
 
 #: electrum/gui/qt/main_window.py:546
-msgid "Smart contracts and tokens can not be used with Trezor and SegWit Address."
+msgid "Smart contracts and tokens can not be used with Trezor and Multisig Address and SegWit Address."
 msgstr "スマートコントラクトとトークンは使用できませんので機能が制限されています。"
 
 #: electrum/gui/qt/main_window.py:664
@@ -5568,7 +5568,7 @@ msgstr "トークン"
 #: electrum/gui/qt/main_window.py:665
 #: electrum/gui/qt/token_dialog.py:86
 msgid "Add Token"
-msgstr "トークンを追加"
+msgstr "トークン追加"
 
 #: electrum/gui/qt/main_window.py:667
 msgid "&Smart Contract"
@@ -5825,7 +5825,7 @@ msgstr "小数点"
 
 #: electrum/gui/kivy/uix/dialogs/view_token_dialog.py:76
 msgid "Delete Token"
-msgstr "トークンを削除"
+msgstr "トークン削除"
 
 #: electrum/gui/kivy/uix/dialogs/view_token_dialog.py:117
 msgid "Delete {} token?"
@@ -5841,7 +5841,7 @@ msgstr "VIPSトークン請求をシェアする"
 
 #: electrum/gui/kivy/uix/dialogs/send_token_dialog.py:15
 msgid "Send Token"
-msgstr "トークンを送金"
+msgstr "トークン送金"
 
 #: electrum/gui/kivy/uix/dialogs/send_token_dialog.py:198
 msgid "Token doesn't mutch"
